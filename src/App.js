@@ -1,9 +1,15 @@
 import React from 'react'
-
+import Header from './components/Header'
+import './styles.css'
+//import './stew.css'
+import Notes from './components/Notes'
+import CreateArea from './components/CreateArea'
 const App = () => {
   return (
     <div>
-      hello world i am  herrfvhfjkdhkjfdhkj
+    <Header></Header>
+    <CreateArea></CreateArea>
+    <Notes></Notes>
     </div>
   )
 }

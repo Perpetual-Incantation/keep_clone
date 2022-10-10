@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+}
+body{
+    background: #FFFFFF;
+}
+.header{
+    background-color: #FFFFFF;
+    margin: auto -10px;
+    padding: 10px 20px;
+    box-shadow: 0 0 2px 0 rgb(110, 110, 110);
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.header h1{
+    font: 2rem;
+    margin-left: 10px;
+    font-weight: 600;
+    color:grey;
+}
+form{
+    position: relative;
+    width: 600px;;
+    margin: 32px auto 50px auto;
+    background: white;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0 1px 7px rgb(128,128,128);
+}
+form input{
+    width: 100%;
+    border: none;
+    padding: 4px 10px;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    resize: none;
+}
+form textarea{
+    width: 100%;
+    border: none;
+    padding: 4px 10px;
+    outline: none;
+    font-size: 1rem;
+    resize: none;
+
+}
+.notes{
+    background: white;
+    width: 240px;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px grey;
+    padding: 10px;
+    margin: 16px;
+    float: left;
+}
+.notes h1{
+    font-size: 1rem;
+    margin-bottom: 6px;
+
+}
+.notes p{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    white-space: break-word;
+    word-wrap: break-word;
+}
