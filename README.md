@@ -1,5 +1,5 @@
 # keep_clone
-# In this app i have implement add notes and edit notes and delete notes feature. (CRUD) feature 
+# In this app i have implement add notes, edit notes and delete notes feature(CRUD).
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
