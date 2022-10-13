@@ -53,16 +53,31 @@ form textarea{
 }
 .notes{
     background: white;
-    width: 240px;
+    width: 20%;
     border-radius: 7px;
     box-shadow: 0 2px 5px grey;
     padding: 10px;
-    margin: 16px;
+    margin-left: 2%;
     float: left;
+    margin-right: 0;
+    resize: none;
+    overflow: hidden;
+    
+
 }
+.grid{
+    display: grid;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
 .notes h1{
     font-size: 1rem;
     margin-bottom: 6px;
+    resize: none;
+    word-wrap: break-word;
+    overflow: hidden;
+    
 
 }
 .notes p{
@@ -70,4 +85,43 @@ form textarea{
     margin-bottom: 10px;
     white-space: break-word;
     word-wrap: break-word;
+    resize: none;
+    overflow: hidden;
+}
+.notes button {
+    position: relative;
+    float: right;
+    color:black;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+    display: inherit;
+  }
+form button {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 18px;
+    bottom: -18px;
+    background-color: blue;
+    border:none;
+    border-radius: 50%;
+    color: #FFFFFF;
+    width: 36px;
+    height: 36px;
+    box-shadow: 0 1px 3px grey;
+    cursor: pointer;
+    outline: none;
+}
+.notes textarea{
+    top: 10px;
+
+}
+.notes input{
+    top:10px;
+}
+.notes .textarea edit-input{
+top: 10px;
 }
