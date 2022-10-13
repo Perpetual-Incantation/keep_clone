@@ -1,5 +1,5 @@
 # keep_clone
-# In this app i have implement add notes, edit notes and delete notes feature(CRUD).
+## This is Google Keep Clone. In this app i have implement add notes, edit notes and delete notes feature(CRUD).
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
