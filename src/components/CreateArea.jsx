@@ -13,12 +13,12 @@ function CreateArea({ onAdd }) {
   function handleChange(e) {
     const { name, value } = e.target;
     setNote((preValue) => {
-      return {
-        ...preValue,
+      return {...preValue,
         [name]: value,
-      };
+             };
     });
   }
+  
   function handleExpanded() {
     setExpanded(true);
   }
